@@ -1,0 +1,14 @@
+[project]
+name = "binh-minh-sales-agent"
+version = "0.1.0"
+description = "AI Agent tổng hợp & phân phối cơ hội kinh doanh tuần - Công ty Bình Minh"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+]
+
+[tool.uv]
+package = false
+
